@@ -1,12 +1,12 @@
-## NextChapter: GitHub Copilot Reflection
-# 1. What did you ask Copilot to help you build? How did you break down the problem?
+# NextChapter: GitHub Copilot Reflection
+## 1. What did you ask Copilot to help you build? How did you break down the problem?
 I asked GitHub Copilot to help me build NextChapter, a social networking platform for college students and recent graduates. The goal was to create a place where students from different universities and majors could share their college experiences, achievements, challenges, career journeys, and advice.
 I started by explaining the idea and the type of platform I wanted to create. Then, I broke the project down into smaller parts, such as the home feed, student profiles, creating posts, likes, comments, saved posts, and career sections. I also asked Copilot to organize the code into separate HTML, CSS, and JavaScript files. After the application was built, I asked it to help create the README and project documentation.
-# 2. How did your approach to asking questions change as you worked?
+## 2. How did your approach to asking questions change as you worked?
 At first, my prompts were more general because I was still figuring out how I wanted the application to look and work. As I continued, I learned that I needed to be more specific about what I wanted Copilot to do. For example, I had to explain that I wanted the HTML, CSS, and JavaScript in separate files instead of having everything written in one HTML file. I also started asking Copilot to review the files, fix issues, and make sure the different parts of the application worked together.
-# 3. What parts of the development process with GitHub Copilot surprised you?
+## 3. What parts of the development process with GitHub Copilot surprised you?
 I was surprised by how quickly Copilot could generate code and create the basic structure of an application from a written prompt. It was also helpful that I could ask it to make changes and improve the design without having to write everything from scratch. However, I also learned that Copilot does not always understand exactly what I want the first time. I had to give it more specific instructions and review its work to make sure the code was organized correctly.
-# 4. What did you learn about the technology you used that you didn't know before?
+## 4. What did you learn about the technology you used that you didn't know before?
 I learned more about how HTML, CSS, and JavaScript work together to create a website. HTML provides the structure, CSS controls the appearance and design, and JavaScript makes the application interactive. I also learned about localStorage and how it can save information in the browser so that certain data can remain available after refreshing a page. Additionally, I became more familiar with using Git commands such as git add, git commit, and git push to save my work and upload changes to GitHub.
-# 5. What would you do differently if you had to build this again?
+## 5. What would you do differently if you had to build this again?
 If I had to build this application again, I would spend more time planning the structure and features before asking Copilot to generate the code. I would also break the project into smaller tasks from the beginning instead of asking it to build too much at once. I would test each feature as it was developed rather than waiting until the end. Most importantly, I would try to understand more of the code Copilot generates instead of depending on it to do everything. I think this would help me improve my programming skills and become more confident working independently.
