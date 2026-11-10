@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#f8f8f5">
+	<title>NextChapter — Your journey. Their inspiration.</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="app">
+		<header class="topbar">
+			<a class="brand" href="#home" aria-label="NextChapter home"><span class="brand-mark">nc</span><span class="brand-name">Next<span>Chapter</span></span></a>
+			<label class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search people, posts, topics..." aria-label="Search"></label>
+			<div class="top-actions"><button class="icon-btn" id="notificationsBtn" aria-label="Notifications" title="Notifications">♧</button><button class="icon-btn" id="messagesBtn" aria-label="Messages" title="Messages">✉</button><button class="user-mini" data-view="profile"><span class="avatar small">JD</span><span>Jordan Davis</span></button></div>
+		</header>
+		<div class="layout">
+			<aside class="sidebar">
+				<div class="nav-label">YOUR SPACE</div>
+				<nav class="nav-list" id="sideNav" aria-label="Main navigation"></nav>
+				<div class="sidebar-note"><span class="spark">✳</span><strong>Your journey matters.</strong>Every step you share can help someone find their next chapter.</div>
+			</aside>
+			<main class="main" id="mainContent" tabindex="-1"></main>
+			<aside class="rightbar" id="rightbar"></aside>
+		</div>
+		<nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation"></nav>
+	</div>
+	<div class="toast" id="toast" role="status" aria-live="polite"></div>
+	<script src="script.js"></script>
+</body>
+</html>
